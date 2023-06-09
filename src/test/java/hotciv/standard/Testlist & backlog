@@ -1,0 +1,42 @@
+GitLab: https://gitlab.au.dk/au668939/hotciv
+
+
+Test-list
+    - [x] Red is the first player in turn
+    - [x] Blue is the second player in turn
+    - [x] Red wins in year 3000 BC
+    - [x] Red's city is at (1,1)
+    - [x] There is ocean at (1,0)
+    - [x] Units cannot move over mountains
+    - [x] Red cannot move Blue's units
+    - [x] Cities produce 6 `production' after a round has ended
+    - [x] Cities' population size is always 1
+    - [x] 1 round takes 100 years
+    - [x] Red' unit attack and destroy Blue's units
+    - [x] Allow changing production in a city
+    - [x] End of round cities produce units
+    - [x] End of round cities produce units and removes treasure
+    - [x] Units costs what they are supposed to (currently costs 10)
+    - [x] Units gets an associated class (archer, legion and settlers)
+    - [x] Units are only allowed to move 1 step
+    - [x] Archers cannot move when fortified
+    - [x] Settler can build a city
+    - [x] archer should NOT be able to build a city
+    - [x] settler should build city corresponding to its owner
+    - [x] Archer can fortify
+    - [x] units should have stats
+    - [x] archers cannot fortify twice
+    - [x] make sure that custom world layouts works
+    - [x] units can take over cities
+    - [x] units cant move out of bounds
+    - [x] friendly units cant remove each other
+    - [x] units cant spawn outside the map when cities are at the border
+    - [x] units can only move once per turn
+    - [x] units increments their moveCount
+    - Add more tests for zetaciv
+    - Add integration tests
+    - Test EpsilonCiv...............
+
+
+Backlog
+    - Sandworms can currently spawn the wrong places
